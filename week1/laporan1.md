@@ -9,3 +9,4 @@
 
 #Lampiran
 1. Python ![Web Download Python](../assets/image/Web%20Download%20Python.png)
+2. Wireshark ![Web Download Wireshark](../assets/image/Web%20Download%20Wireshark.png)
