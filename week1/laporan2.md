@@ -20,3 +20,6 @@ Bisa dilihat pada lampiran diatas menunjukkan bahwa wireshark sedang merekam akt
 4. Selanjutnya, sebagai contoh kita bisa masukkan URL : http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html pada chrome dan tampilannya akan seperti lampiran dibawah ini
 # Lampiran
 Tampilan Umass Edu Wireshark ![Tampilan Umass Edu Wireshark](../assets/image/Tampilan%20Umass%20Edu%20Wireshark.png)
+5. Setelah browser menampilkan kalimat "Congratulations!" selanjutnya kita kembali ke Wireshark dan mengetik "http" di pencarian 
+# Lampiran
+Tampilan Pencarian http di Wireshark ![Pencarian http Wireshark](../assets/image/Pencarian%20http%20Wireshark.png)
