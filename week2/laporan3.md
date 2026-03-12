@@ -35,3 +35,11 @@ Retrieving Long Documents
 Tampilan Umass edu link (3) ![Tampilan Umass edu link (3)](../assets/image/Tampilan%20Umass%20edu%20link%20(3).png)
 Tampilan http link (3) ![Tampilan http link (3)](../assets/image/Tampilan%20http%20link%20(3).png)
 
+HTML dengan Embedded Objects
+1. HTML dengan Embedded Objects
+2. Mulai capture Wireshark
+3. Buka: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
+4. Stop capture, filter "http"
+
+# Lampiran
+Tampilan Umass edu link (4) ![Tampilan Umass edu link (4)](../assets/image/Tampilan%20Umass%20edu%20link%20(4).png)
