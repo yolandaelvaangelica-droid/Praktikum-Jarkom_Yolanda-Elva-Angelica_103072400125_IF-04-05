@@ -55,3 +55,4 @@ Tampilan http link (4) ![Tampilan http link (4)](../assets/image/Tampilan%20http
 
 # Lampiran
 Tampilan Umass edu link (5) ![Tampilan Umass edu link (5)](../assets/image/Tampilan%20Umass%20edu%20link%20(5).png)
+Tampilan http link (5) ![Tampilan http link (5)](../assets/image/Tampilan%20http%20link%20(5).png)
