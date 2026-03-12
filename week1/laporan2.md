@@ -23,3 +23,4 @@ Tampilan Umass Edu Wireshark ![Tampilan Umass Edu Wireshark](../assets/image/Tam
 5. Setelah browser menampilkan kalimat "Congratulations!" selanjutnya kita kembali ke Wireshark dan mengetik "http" di pencarian 
 # Lampiran
 Tampilan Pencarian http di Wireshark ![Pencarian http Wireshark](../assets/image/Pencarian%20http%20Wireshark.png)
+6. Setelah itu kita dapat keluar dari Wireshark
