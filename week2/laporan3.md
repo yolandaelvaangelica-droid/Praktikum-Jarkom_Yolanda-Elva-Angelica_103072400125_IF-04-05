@@ -24,3 +24,12 @@ HTTP CONDITIONAL GET
 # Lampiran
 Tampilan Umass edu link (2) ![Tampilan Umass edu link (2)](../assets/image/Tampilan%20Umass%20edu%20link%20(2).png)
 Tampilan http link (2) ![Tampilan http link (2)](../assets/image/Tampilan%20http%20link%20(2).png)
+
+Retrieving Long Documents
+1. Bersihkan cache browser
+2. Mulai capture Wireshark
+3. Buka: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html
+4. Stop capture, filter "http"
+
+# Lampiran
+Tampilan Umass edu link (3) ![Tampilan Umass edu link (3)](../assets/image/Tampilan%20Umass%20edu%20link%20(3).png)
