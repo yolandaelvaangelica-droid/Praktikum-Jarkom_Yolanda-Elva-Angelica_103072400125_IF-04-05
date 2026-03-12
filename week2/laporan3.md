@@ -33,3 +33,5 @@ Retrieving Long Documents
 
 # Lampiran
 Tampilan Umass edu link (3) ![Tampilan Umass edu link (3)](../assets/image/Tampilan%20Umass%20edu%20link%20(3).png)
+Tampilan http link (3) ![Tampilan http link (3)](../assets/image/Tampilan%20http%20link%20(3).png)
+
