@@ -11,4 +11,4 @@
 # Lampiran
 Pencarian http di tools WiFi ![Pencarian http di tools WiFi](../assets/image/Pencarian%20http%20di%20tools%20WiFi.png)
 Tampilan berhasil Umass Edu di Chrome ![Tampilan berhasil Umass Edu di Chrome](../assets/image/Tampilan%20berhasil%20Umass%20Edu%20di%20Chrome.png)
-Tampilan Umass Edu di tools WiFi ![Tampilan Umass Edu di tools WiFi](../assets/image/Tampilan%20Umass%20Edu%20di%20tools%20WiFi.png)
+Tampilan Umass Edu di tools WiFi ![Tampilan Umass Edu di tools WiFi](../assets/image/Tampilan%20Umass%20Edu%20di%20tools%20WiFi.png) 
