@@ -40,3 +40,4 @@ Terlihat beberapa paket DNS query dan response untuk www.ietf.org. Permintaan DN
 9. Filter diubah jadi ip.addr == 10.218.9.61 && dns.qry.name contains "mit" buat nangkep paket DNS waktu nslookup mit.edu dijalankan.
 # Lampiran
 Wireshark filter DNS mit - capture ![Wireshark filter DNS mit - capture](../assets/image/Wireshark%20filter%20DNS%20mit%20-%20capture.png)
+nslookup mit.edu hasil di CMD ![nslookup mit.edu hasil di CMD](../assets/image/nslookup%20mit.edu%20hasil%20di%20CMD.png)
