@@ -51,3 +51,8 @@ Pertanyaan 4.2 nslookup
 server tersebut?
 # Lampiran
 nslookup www.nus.edu.sg ![nslookup www.nus.edu.sg](../assets/image/nslookup%20www.nus.edu.sg.png)
+Alamat IP dari server web www.nus.edu.sg adalah 45.60.35.225 (hasilnya bisa berbeda tergantung waktu dan jaringan yang digunakan).
+
+2. Jalankan nslookup agar dapat mengetahui server DNS otoritatif untuk universitas di Eropa.
+# Lampiran
+nslookup -type=NS ox.ac.uk ![nslookup -type=NS ox.ac.uk](../assets/image/nslookup%20-type=NS%20ox.ac.uk.png)
