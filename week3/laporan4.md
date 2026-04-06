@@ -11,3 +11,7 @@ Dari hasilnya, server DNS yang dipake adalah tusbind.ac.id dengan IP 10.217.7.77
 # Lampiran
 nslookup -type=NS mit.edu (bagian 1) ![nslookup -type=NS mit.edu (bagian 1)](../assets/image/nslookup%20-type=NS%20mit.edu%20(bagian%201).png)
 nslookup -type=NS mit.edu (bagian 2) ![nslookup -type=NS mit.edu (bagian 2)](../assets/image/nslookup%20-type=NS%20mit.edu%20(bagian%202).png)
+Hasilnya menunjukkan ada delapan nameserver untuk mit.edu, semuanya di bawah domain akam.net, yaitu usw2.akam.net, ns1-173.akam.net, eur5.akam.net, use2.akam.net, use5.akam.net, ns1-37.akam.net, asia1.akam.net, dan asia2.akam.net. Selain nama servernya, hasil juga langsung kasih alamat IP masing-masing nameserver tersebut secara otomatis.
+3. Perintah ketiga mencoba ngirim permintaan DNS langsung ke server bitsy.mit.edu.
+# Lampiran
+nslookup www.aiit.or.kr bitsy.mit.edu - timeout ![nslookup www.aiit.or.kr bitsy.mit.edu - timeout](../assets/image/nslookup%20www.aiit.or.kr%20bitsy.mit.edu%20-%20timeout.png)
