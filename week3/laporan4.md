@@ -56,3 +56,9 @@ Alamat IP dari server web www.nus.edu.sg adalah 45.60.35.225 (hasilnya bisa berb
 2. Jalankan nslookup agar dapat mengetahui server DNS otoritatif untuk universitas di Eropa.
 # Lampiran
 nslookup -type=NS ox.ac.uk ![nslookup -type=NS ox.ac.uk](../assets/image/nslookup%20-type=NS%20ox.ac.uk.png)
+Server DNS otoritatif untuk University of Oxford antara lain dns0.ox.ac.uk, dns1.ox.ac.uk, dan dns2.ox.ac.uk.
+
+3. Jalankan nslookup untuk mencari tahu informasi mengenai server email dari Yahoo! Mail 
+melalui salah satu server yang didapatkan di pertanyaan nomor 2. Apa alamat IP-nya?
+# Lampiran
+nslookup -type=MX yahoo.com dns0.ox.ac.uk ![nslookup -type=MX yahoo.com dns0.ox.ac.uk](../assets/image/nslookup%20-type=MX%20yahoo.com%20dns0.ox.ac.uk.png)
