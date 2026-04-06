@@ -31,3 +31,7 @@ Muncul pesan Successfully flushed the DNS Resolver Cache yang artinya cache berh
 7. Wireshark dibuka dan dijalankan dengan filter ip.addr == 10.218.9.61 supaya hanya paket yang masuk/keluar dari komputer yang ditampilkan.
 # Lampiran
 Wireshark filter ip.addr ![Wireshark filter ip.addr](../assets/image/Wireshark%20filter%20ip.addr.png)
+Di awal capture terlihat banyak paket ARP, lalu diikuti paket TCP dan TLSv1.2 saat koneksi ke server mulai terjadi.
+8. Buat lihat paket DNS secara spesifik, filter diubah jadi ip.addr == 10.218.9.61 && dns.qry.name contains "ietf".
+# Lampiran
+Wireshark capture TLSTCP setelah DNS resolved ![Wireshark capture TLSTCP setelah DNS resolved](../assets/image/Wireshark%20capture%20TLSTCP%20setelah%20DNS%20resolved.png)
