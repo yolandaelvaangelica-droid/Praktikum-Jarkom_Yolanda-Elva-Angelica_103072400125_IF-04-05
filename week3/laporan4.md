@@ -27,3 +27,7 @@ Dari hasilnya terlihat beberapa domain yang udah pernah diakses tersimpan di cac
 6. Setelah liat isi cache, cache DNS-nya dihapus pakai perintah ipconfig /flushdns.
 # Lampiran
 ipconfig flushdns ![ipconfig flushdns](../assets/image/ipconfig%20flushdns.png)
+Muncul pesan Successfully flushed the DNS Resolver Cache yang artinya cache berhasil dikosongkan. Setelah ini, komputer bakal minta resolusi DNS ulang ke server setiap kali akses domain baru.
+7. Wireshark dibuka dan dijalankan dengan filter ip.addr == 10.218.9.61 supaya hanya paket yang masuk/keluar dari komputer yang ditampilkan.
+# Lampiran
+Wireshark filter ip.addr ![Wireshark filter ip.addr](../assets/image/Wireshark%20filter%20ip.addr.png)
