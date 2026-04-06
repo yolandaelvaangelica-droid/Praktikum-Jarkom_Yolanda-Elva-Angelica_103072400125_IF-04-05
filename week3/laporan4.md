@@ -36,3 +36,7 @@ Di awal capture terlihat banyak paket ARP, lalu diikuti paket TCP dan TLSv1.2 sa
 # Lampiran
 Wireshark capture TLSTCP setelah DNS resolved ![Wireshark capture TLSTCP setelah DNS resolved](../assets/image/Wireshark%20capture%20TLSTCP%20setelah%20DNS%20resolved.png)
 Wireshark filter DNS ietf ![Wireshark filter DNS ietf](../assets/image/Wireshark%20filter%20DNS%20ietf.png)
+Terlihat beberapa paket DNS query dan response untuk www.ietf.org. Permintaan DNS dikirim dari komputer ke server DNS 10.217.7.77 lewat port 53 pakai protokol UDP. Balasannya mengembalikan IP 104.16.45.99 dan 104.16.44.99 untuk www.ietf.org.
+9. Filter diubah jadi ip.addr == 10.218.9.61 && dns.qry.name contains "mit" buat nangkep paket DNS waktu nslookup mit.edu dijalankan.
+# Lampiran
+Wireshark filter DNS mit - capture ![Wireshark filter DNS mit - capture](../assets/image/Wireshark%20filter%20DNS%20mit%20-%20capture.png)
