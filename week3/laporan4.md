@@ -19,3 +19,7 @@ Hasilnya gagal karena DNS request timeout terus sampai 4 kali dengan pesan *** R
 4. Perintah ipconfig /all dijalankan buat liat semua informasi konfigurasi jaringan di komputer secara lengkap.
 # Lampiran
 ipconfig /all ![ipconfig /all](../assets/image/ipconfig%20all.png)
+Dari hasilnya, hostname komputer adalah DESKTOP-GARLJAI. Ada dua adapter yang aktif, yaitu VirtualBox Host-Only Network dengan IP 192.168.56.1 dan adapter Wi-Fi dengan IP 10.218.9.61, subnet mask 255.255.240.0, dan default gateway 10.218.0.253.
+5. Perintah ipconfig /displaydns dipakai buat nampilin isi DNS cache yang tersimpan di komputer.
+# Lampiran
+ipconfig displaydns ![ipconfig displaydns](../assets/image/ipconfig%20displaydns.png)
