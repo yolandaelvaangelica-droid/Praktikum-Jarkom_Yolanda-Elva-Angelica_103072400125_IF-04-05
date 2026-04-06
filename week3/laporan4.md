@@ -15,3 +15,7 @@ Hasilnya menunjukkan ada delapan nameserver untuk mit.edu, semuanya di bawah dom
 3. Perintah ketiga mencoba ngirim permintaan DNS langsung ke server bitsy.mit.edu.
 # Lampiran
 nslookup www.aiit.or.kr bitsy.mit.edu - timeout ![nslookup www.aiit.or.kr bitsy.mit.edu - timeout](../assets/image/nslookup%20www.aiit.or.kr%20bitsy.mit.edu%20-%20timeout.png)
+Hasilnya gagal karena DNS request timeout terus sampai 4 kali dengan pesan *** Request to UnKnown timed-out. Ini terjadi karena server bitsy.mit.edu tidak bisa diakses dari jaringan yang dipakai saat praktikum.
+4. Perintah ipconfig /all dijalankan buat liat semua informasi konfigurasi jaringan di komputer secara lengkap.
+# Lampiran
+ipconfig /all ![ipconfig /all](../assets/image/ipconfig%20all.png)
