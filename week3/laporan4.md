@@ -10,3 +10,4 @@ Dari hasilnya, server DNS yang dipake adalah tusbind.ac.id dengan IP 10.217.7.77
 2. Perintah kedua adalah nslookup -type=NS mit.edu. Ini dipakai buat nyari nameserver yang bertanggung jawab atas domain mit.edu.
 # Lampiran
 nslookup -type=NS mit.edu (bagian 1) ![nslookup -type=NS mit.edu (bagian 1)](../assets/image/nslookup%20-type=NS%20mit.edu%20(bagian%201).png)
+nslookup -type=NS mit.edu (bagian 2) ![nslookup -type=NS mit.edu (bagian 2)](../assets/image/nslookup%20-type=NS%20mit.edu%20(bagian%202).png)
