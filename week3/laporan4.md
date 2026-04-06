@@ -35,3 +35,4 @@ Di awal capture terlihat banyak paket ARP, lalu diikuti paket TCP dan TLSv1.2 sa
 8. Buat lihat paket DNS secara spesifik, filter diubah jadi ip.addr == 10.218.9.61 && dns.qry.name contains "ietf".
 # Lampiran
 Wireshark capture TLSTCP setelah DNS resolved ![Wireshark capture TLSTCP setelah DNS resolved](../assets/image/Wireshark%20capture%20TLSTCP%20setelah%20DNS%20resolved.png)
+Wireshark filter DNS ietf ![Wireshark filter DNS ietf](../assets/image/Wireshark%20filter%20DNS%20ietf.png)
