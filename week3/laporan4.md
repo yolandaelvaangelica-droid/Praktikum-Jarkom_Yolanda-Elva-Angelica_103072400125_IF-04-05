@@ -70,3 +70,7 @@ atau TCP?
     # Lampiran
     nomor 1 modul 4 (4.4) ![nomor 1 modul 4 (4.4)](../assets/image/nomor%201%20modul%204%20(4.4).png)
 
+2. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasannya? 
+    # Lampiran
+    nomor 2 modul 4 (4.4) ![nomor 2 modul 4 (4.4)](../assets/image/nomor%202%20modul%204%20(4.4).png)
+
