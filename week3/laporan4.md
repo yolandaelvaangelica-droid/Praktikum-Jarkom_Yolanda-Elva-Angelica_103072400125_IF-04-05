@@ -41,3 +41,7 @@ Terlihat beberapa paket DNS query dan response untuk www.ietf.org. Permintaan DN
 # Lampiran
 Wireshark filter DNS mit - capture ![Wireshark filter DNS mit - capture](../assets/image/Wireshark%20filter%20DNS%20mit%20-%20capture.png)
 nslookup mit.edu hasil di CMD ![nslookup mit.edu hasil di CMD](../assets/image/nslookup%20mit.edu%20hasil%20di%20CMD.png)
+Terlihat empat paket: dua query (record A dan AAAA) dan dua response. Balasan untuk query A ngasih IP 173.222.144.77, dan balasan AAAA ngasih dua alamat IPv6. Hasilnya sama persis dengan yang ditampilkan di Command Prompt waktu nslookup mit.edu dijalankan.
+10. Untuk query NS record mit.edu, hasilnya menunjukkan delapan nameserver di bawah domain akam.net. Server DNS yang menjawab tetap tusbind.ac.id dengan IP 10.217.7.77. Jawaban bersifat non-authoritative karena datanya dari cache server DNS lokal, bukan langsung dari nameserver MIT.
+# Lampiran
+Wireshark filter DNS mit - capture ![Wireshark filter DNS mit - capture](../assets/image/Wireshark%20filter%20DNS%20mit%20-%20capture.png)
