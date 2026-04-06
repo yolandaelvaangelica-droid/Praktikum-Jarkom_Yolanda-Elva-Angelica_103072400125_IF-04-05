@@ -45,3 +45,4 @@ Terlihat empat paket: dua query (record A dan AAAA) dan dua response. Balasan un
 10. Untuk query NS record mit.edu, hasilnya menunjukkan delapan nameserver di bawah domain akam.net. Server DNS yang menjawab tetap tusbind.ac.id dengan IP 10.217.7.77. Jawaban bersifat non-authoritative karena datanya dari cache server DNS lokal, bukan langsung dari nameserver MIT.
 # Lampiran
 Wireshark filter DNS mit - capture ![Wireshark filter DNS mit - capture](../assets/image/Wireshark%20filter%20DNS%20mit%20-%20capture.png)
+nslookup -type=NS mit.edu hasil di CMD ![nslookup -type=NS mit.edu hasil di CMD](../assets/image/nslookup%20-type=NS%20mit.edu%20hasil%20di%20CMD.png)
