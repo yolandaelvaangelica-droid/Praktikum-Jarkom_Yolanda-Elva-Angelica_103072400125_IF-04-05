@@ -2,7 +2,6 @@
 
 # modul 4 DNS
 
-4.2 Nslookup
 1. Perintah pertama yang dicoba adalah nslookup www.mit.edu. Perintah ini dipakai buat nyari alamat IP dari website www.mit.edu.
 # Lampiran
 nslookup www.mit.edu ![nslookup www.mit.edu](../assets/image/nslookup%20www.mit.edu.png)
@@ -46,3 +45,9 @@ Terlihat empat paket: dua query (record A dan AAAA) dan dua response. Balasan un
 # Lampiran
 Wireshark filter DNS mit - capture ![Wireshark filter DNS mit - capture](../assets/image/Wireshark%20filter%20DNS%20mit%20-%20capture.png)
 nslookup -type=NS mit.edu hasil di CMD ![nslookup -type=NS mit.edu hasil di CMD](../assets/image/nslookup%20-type=NS%20mit.edu%20hasil%20di%20CMD.png)
+
+Pertanyaan 4.2 nslookup
+1. Jalankan nslookup untuk mendapatkan alamat IP dari server web di Asia. Berapa alamat IP 
+server tersebut?
+# Lampiran
+nslookup www.nus.edu.sg ![nslookup www.nus.edu.sg](../assets/image/nslookup%20www.nus.edu.sg.png)
