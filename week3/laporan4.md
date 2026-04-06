@@ -23,3 +23,7 @@ Dari hasilnya, hostname komputer adalah DESKTOP-GARLJAI. Ada dua adapter yang ak
 5. Perintah ipconfig /displaydns dipakai buat nampilin isi DNS cache yang tersimpan di komputer.
 # Lampiran
 ipconfig displaydns ![ipconfig displaydns](../assets/image/ipconfig%20displaydns.png)
+Dari hasilnya terlihat beberapa domain yang udah pernah diakses tersimpan di cache, contohnya mc.corel.com yang tidak punya record A maupun AAAA, dan tas01.cwsapp.update.microsoft.com yang punya CNAME record dengan TTL 74 detik.
+6. Setelah liat isi cache, cache DNS-nya dihapus pakai perintah ipconfig /flushdns.
+# Lampiran
+ipconfig flushdns ![ipconfig flushdns](../assets/image/ipconfig%20flushdns.png)
