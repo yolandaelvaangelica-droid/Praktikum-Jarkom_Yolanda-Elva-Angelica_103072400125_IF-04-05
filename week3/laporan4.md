@@ -80,3 +80,8 @@ atau TCP?
     nomor 3 modul 4 (4.4) (bagian 1) ![nomor 3 modul 4 (4.4)](../assets/image/nomor%203%20modul%204%20(4.4)%20(bagian%201).png)
     nomor 3 modul 4 (4.4) (bagian 2) ![nomor 3 modul 4 (4.4) (bagian 2)](../assets/image/nomor%203%20modul%204%20(4.4)%20(bagian%202).png)
 
+4. Periksa pesan permintaan DNS. Apa “jenis” atau ”type” dari pesan tersebut? Apakah pesan 
+permintaan tersebut mengandung ”jawaban” atau ”answers”? 
+    # Lampiran
+    nomor 4 modul 4 (4.4) ![nomor 4 modul 4 (4.4)](../assets/image/nomor%204%20modul%204%20(4.4).png)
+
