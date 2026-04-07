@@ -113,3 +113,8 @@ merupakan default alamat IP server DNS lokal Anda?
     # Lampiran
     nomor 2 modul 4.4 (gambar 4.3) (bagian 1) ![nomor 2 modul 4.4 (gambar 4.3) (bagian 1)](../assets/image/nomor%202%20modul%204.4%20(gambar%204.3)%20(bagian%201).png)
     nomor 2 modul 4.4 (gambar 4.3) (bagian 2) ![nomor 2 modul 4.4 (gambar 4.3) (bagian 2)](../assets/image/nomor%202%20modul%204.4%20(gambar%204.3)%20(bagian%202).png)
+
+3. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan 
+tersebut mengandung ”jawaban” atau ”answers”? 
+    # Lampiran
+    nomor 3 modul 4.4 (gambar 4.3) ![nomor 3 modul 4.4 (gambar 4.3)](../assets/image/nomor%203%20modul%204.4%20(gambar%204.3).png)
