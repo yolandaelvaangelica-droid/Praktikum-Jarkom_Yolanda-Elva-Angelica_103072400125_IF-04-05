@@ -101,4 +101,4 @@ mengakses suatu gambar?
     Host tidak selalu mengirimkan pesan DNS baru setiap kali mengakses gambar. Jika gambar berasal dari domain yang sama, maka host menggunakan hasil DNS yang telah disimpan dalam cache. Namun jika gambar berasal dari domain berbeda, maka host akan mengirimkan permintaan DNS baru.
     # Lampiran
     nomor 7 modul 4 (4.4) (bagian 1) ![nomor 7 modul 4 (4.4) (bagian 1)](../assets/image/nomor%207%20modul%204%20(4.4)%20(bagian%201).png)
-
+    nomor 7 modul 4 (4.4) (bagian 2) ![nomor 7 modul 4 (4.4) (bagian 2)](../assets/image/nomor%207%20modul%204%20(4.4)%20(bagian%202).png)
