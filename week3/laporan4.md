@@ -102,3 +102,8 @@ mengakses suatu gambar?
     # Lampiran
     nomor 7 modul 4 (4.4) (bagian 1) ![nomor 7 modul 4 (4.4) (bagian 1)](../assets/image/nomor%207%20modul%204%20(4.4)%20(bagian%201).png)
     nomor 7 modul 4 (4.4) (bagian 2) ![nomor 7 modul 4 (4.4) (bagian 2)](../assets/image/nomor%207%20modul%204%20(4.4)%20(bagian%202).png)
+
+pertanyaan 4.4 untuk gambar 4.3
+1. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasan DNS? 
+    # Lampiran
+    nomor 1 modul 4.4 (gambar 4.3) ![nomor 1 modul 4.4 (gambar 4.3)](../assets/image/nomor%201%20modul%204.4%20(gambar%204.3).png)
