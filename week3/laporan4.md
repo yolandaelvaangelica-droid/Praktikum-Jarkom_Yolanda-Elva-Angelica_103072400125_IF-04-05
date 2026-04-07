@@ -151,3 +151,8 @@ merupakan default alamat IP server DNS lokal Anda?
 tersebut mengandung ”jawaban” atau ”answers”? 
     # Lampiran
     nomor 2 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu ![nomor 2 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu](../assets/image/nomor%202%20modul%204%20nslookup%20www.aiit.or.kr%20bitsy.mit.edu.png)
+
+3. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di 
+dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut? 
+    # Lampiran
+    nomor 3 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu ![nomor 3 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu](../assets/image/nomor%203%20modul%204%20nslookup%20www.aiit.or.kr%20bitsy.mit.edu.png)
