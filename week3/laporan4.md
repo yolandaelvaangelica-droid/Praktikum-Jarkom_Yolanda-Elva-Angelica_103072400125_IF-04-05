@@ -85,3 +85,8 @@ permintaan tersebut mengandung ”jawaban” atau ”answers”?
     # Lampiran
     nomor 4 modul 4 (4.4) ![nomor 4 modul 4 (4.4)](../assets/image/nomor%204%20modul%204%20(4.4).png)
 
+5. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau ”answers” yang terdapat di 
+dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut? 
+    # Lampiran
+    nomor 5 modul 4 (4.4) ![nomor 5 modul 4 (4.4)](../assets/image/nomor%205%20modul%204%20(4.4).png)
+
