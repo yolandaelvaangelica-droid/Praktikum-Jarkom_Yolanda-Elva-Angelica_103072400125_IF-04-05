@@ -118,3 +118,8 @@ merupakan default alamat IP server DNS lokal Anda?
 tersebut mengandung ”jawaban” atau ”answers”? 
     # Lampiran
     nomor 3 modul 4.4 (gambar 4.3) ![nomor 3 modul 4.4 (gambar 4.3)](../assets/image/nomor%203%20modul%204.4%20(gambar%204.3).png)
+
+4. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di 
+dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut?
+    # Lampiran
+    nomor 4 modul 4.4 (gambar 4.3) ![nomor 4 modul 4.4 (gambar 4.3)](../assets/image/nomor%204%20modul%204.4%20(gambar%204.3).png)
