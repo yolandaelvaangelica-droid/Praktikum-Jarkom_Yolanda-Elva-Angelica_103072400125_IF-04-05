@@ -144,6 +144,10 @@ Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut?
 pertanyaan modul 4 nslookup www.aiit.or.kr bitsy.mit.edu
 1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut 
 merupakan default alamat IP server DNS lokal Anda?
+    # Lampiran
     nomor 1 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu ![nomor 1 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu](../assets/image/nomor%201%20modul%204%20nslookup%20www.aiit.or.kr%20bitsy.mit.edu.png)
 
-2. 
+2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan 
+tersebut mengandung ”jawaban” atau ”answers”? 
+    # Lampiran
+    nomor 2 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu ![nomor 2 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu](../assets/image/nomor%202%20modul%204%20nslookup%20www.aiit.or.kr%20bitsy.mit.edu.png)
