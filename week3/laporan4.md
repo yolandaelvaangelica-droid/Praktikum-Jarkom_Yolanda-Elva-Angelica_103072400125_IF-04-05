@@ -129,3 +129,5 @@ pertanyaan modul 4 nslookup –type=NS mit.edu
 merupakan default alamat IP server DNS lokal Anda? 
     # Lampiran
     nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 1) ![nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 1)](../assets/image/nomor%201%20modul%204%20nslookup%20–type=NS%20mit.edu%20(bagian%201).png)
+    nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 2) ![nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 2)](../assets/image/nomor%201%20modul%204%20nslookup%20–type=NS%20mit.edu%20(bagian%202).png)
+    
