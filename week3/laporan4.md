@@ -90,3 +90,8 @@ dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut?
     # Lampiran
     nomor 5 modul 4 (4.4) ![nomor 5 modul 4 (4.4)](../assets/image/nomor%205%20modul%204%20(4.4).png)
 
+6. Perhatikan paket TCP SYN yang selanjutnya dikirimkan oleh host Anda. Apakah alamat IP 
+pada paket tersebut sesuai dengan alamat IP yang tertera pada pesan balasan DNS?
+    # Lampiran
+    nomor 6 modul 4 (4.4) ![nomor 6 modul 4 (4.4)](../assets/image/nomor%206%20modul%204%20(4.4).png)
+
