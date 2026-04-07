@@ -95,3 +95,10 @@ pada paket tersebut sesuai dengan alamat IP yang tertera pada pesan balasan DNS?
     # Lampiran
     nomor 6 modul 4 (4.4) ![nomor 6 modul 4 (4.4)](../assets/image/nomor%206%20modul%204%20(4.4).png)
 
+7. Halaman web yang sebelumnya anda akses (http://www.ietf.org) memuat beberapa 
+gambar. Apakah host Anda perlu mengirimkan pesan permintaan DNS baru setiap kali ingin 
+mengakses suatu gambar?
+    Host tidak selalu mengirimkan pesan DNS baru setiap kali mengakses gambar. Jika gambar berasal dari domain yang sama, maka host menggunakan hasil DNS yang telah disimpan dalam cache. Namun jika gambar berasal dari domain berbeda, maka host akan mengirimkan permintaan DNS baru.
+    # Lampiran
+    nomor 7 modul 4 (4.4) (bagian 1) ![nomor 7 modul 4 (4.4) (bagian 1)](../assets/image/nomor%207%20modul%204%20(4.4)%20(bagian%201).png)
+
