@@ -130,4 +130,8 @@ merupakan default alamat IP server DNS lokal Anda?
     # Lampiran
     nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 1) ![nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 1)](../assets/image/nomor%201%20modul%204%20nslookup%20–type=NS%20mit.edu%20(bagian%201).png)
     nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 2) ![nomor 1 modul 4 nslookup –type=NS mit.edu (bagian 2)](../assets/image/nomor%201%20modul%204%20nslookup%20–type=NS%20mit.edu%20(bagian%202).png)
-    
+
+2. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan 
+tersebut mengandung ”jawaban” atau ”answers”? 
+    # Lampiran
+    nomor 2 modul 4 nslookup –type=NS mit.edu ![nomor 2 modul 4 nslookup –type=NS mit.edu](../assets/image/nomor%202%20modul%204%20nslookup%20–type=NS%20mit.edu.png)
