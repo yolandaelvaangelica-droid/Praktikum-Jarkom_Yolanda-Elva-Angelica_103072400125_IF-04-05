@@ -140,3 +140,10 @@ tersebut mengandung ”jawaban” atau ”answers”?
 Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut?
     # Lampiran
     nomor 3 modul 4 nslookup –type=NS mit.edu ![nomor 3 modul 4 nslookup –type=NS mit.edu](../assets/image/nomor%203%20modul%204%20nslookup%20–type=NS%20mit.edu.png)
+
+pertanyaan modul 4 nslookup www.aiit.or.kr bitsy.mit.edu
+1. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut 
+merupakan default alamat IP server DNS lokal Anda?
+    nomor 1 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu ![nomor 1 modul 4 nslookup www.aiit.or.kr bitsy.mit.edu](../assets/image/nomor%201%20modul%204%20nslookup%20www.aiit.or.kr%20bitsy.mit.edu.png)
+
+2. 
