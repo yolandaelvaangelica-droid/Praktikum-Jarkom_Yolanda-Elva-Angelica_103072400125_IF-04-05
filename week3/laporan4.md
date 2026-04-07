@@ -135,3 +135,8 @@ merupakan default alamat IP server DNS lokal Anda?
 tersebut mengandung ”jawaban” atau ”answers”? 
     # Lampiran
     nomor 2 modul 4 nslookup –type=NS mit.edu ![nomor 2 modul 4 nslookup –type=NS mit.edu](../assets/image/nomor%202%20modul%204%20nslookup%20–type=NS%20mit.edu.png)
+
+3. Periksa pesan balasan DNS. Apa nama server MIT yang diberikan oleh pesan balasan? 
+Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut?
+    # Lampiran
+    nomor 3 modul 4 nslookup –type=NS mit.edu ![nomor 3 modul 4 nslookup –type=NS mit.edu](../assets/image/nomor%203%20modul%204%20nslookup%20–type=NS%20mit.edu.png)
