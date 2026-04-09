@@ -1,0 +1,10 @@
+# Laporan5 Praktikum Jarkom IF
+
+# modul 4 UDP
+
+1. Buka browser, pergi ke link: http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip 
+2. Download file ZIP tersebut
+3. Ekstrak/extract file ZIP nya
+    # Lampiran
+    wireshark-traches ![wireshark-traches](../assets/image/wireshark-traches.png)
+4. Cari file bernama http-ethereal-trace-5 di dalam folder hasil ekstrak
