@@ -16,3 +16,9 @@
 10. Klik User Datagram Protocol untuk expand
     # Lampiran
     wireshark-http-ethernal-trace-5 ![wireshark-http-ethernal-trace-5](../assets/image/wireshark-http-ethernal-trace-5.png)
+
+Pertanyaan modul 5
+1. Pilih satu paket UDP yang terdapat pada trace Anda. Dari paket tersebut, berapa banyak 
+“field” yang terdapat pada header UDP? Sebutkan nama-nama field yang Anda temukan!
+    # Lampiran
+    nomor 1 modul 5 ![nomor 1 modul 5](../assets/image/nomor%201%20modul%205.png)
