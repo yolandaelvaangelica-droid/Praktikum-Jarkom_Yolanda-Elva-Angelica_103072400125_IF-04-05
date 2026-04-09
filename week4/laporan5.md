@@ -31,10 +31,24 @@ panjang (dalam satuan byte) masing-masing “field” yang terdapat pada header 
     ![nomor 2 modul 5 (bagian 2)](../assets/image/nomor%202%20modul%205%20(bagian%202).png)
     ![nomor 2 modul 5 (bagian 3)](../assets/image/nomor%202%20modul%205%20(bagian%203).png)
     ![nomor 2 modul 5 (bagian 4)](../assets/image/nomor%202%20modul%205%20(bagian%204).png)
-Masing-masing field panjangnya 2 byte, jadi total header UDP = 8 byte. Cara verifikasinya lihat di panel tengah Wireshark, tiap field akan tersorot 2 byte di panel bawah (hex dump) kalau diklik.
+Masing-masing field panjangnya 2 byte, jadi total header UDP = 8 byte.
 
 3. Nilai yang tertera pada ”Length” menyatakan nilai apa? Verfikasi jawaban Anda melalui 
 paket UDP pada trace. 
     # Lampiran
     ![nomor 3 modul 5](../assets/image/nomor%203%20modul%205.png)
+Field Length menyatakan total panjang paket UDP dalam byte, yaitu header (8 byte) + data/payload. Jadi kalau Length = 50, berarti payload-nya = 50 - 8 = 42 byte.
 
+4. Berapa jumlah maksimum byte yang dapat disertakan dalam payload UDP?  
+Field Length berukuran 2 byte = 16 bit, jadi nilai maksimumnya = 65535. Karena header UDP = 8 byte, maka maksimum payload = 65535 - 8 = 65527 byte.
+
+5. Berapa nomor port terbesar yang dapat menjadi port sumber?
+Field Source Port berukuran 2 byte = 16 bit, jadi nilai maksimumnya = 65535.
+
+6. Berapa nomor protokol untuk UDP? Berikan jawaban Anda dalam notasi heksadesimal dan 
+desimal. Untuk menjawab pertanyaan ini, Anda harus melihat ke bagian ”Protocol” pada 
+datagram IP yang mengandung segmen UDP. 
+    # Lampiran
+    ![nomor 6 modul 5](../assets/image/nomor%206%20modul%205.png)
+
+7. 
