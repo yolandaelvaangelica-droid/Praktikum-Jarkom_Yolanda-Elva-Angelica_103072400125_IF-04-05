@@ -58,5 +58,6 @@ merupakan balasan dari paket pertama, pengirim paket pertama harus menjadi tujua
 paket kedua). Jelaskan hubungan antara nomor port pada kedua paket tersebut! 
     # Lampiran
     ![nomor 7 modul 5 (bagian 1)](../assets/image/nomor%207%20modul%205%20(bagian%201).png)
-    
+    ![nomor 7 modul 5 (bagian 2)](../assets/image/nomor%207%20modul%205%20(bagian%202).png)
+Hubungannya adalah source port dan destination port saling bertukar.
 
