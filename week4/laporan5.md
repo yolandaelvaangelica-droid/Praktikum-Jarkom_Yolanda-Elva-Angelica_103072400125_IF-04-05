@@ -22,3 +22,8 @@ Pertanyaan modul 5
 “field” yang terdapat pada header UDP? Sebutkan nama-nama field yang Anda temukan!
     # Lampiran
     nomor 1 modul 5 ![nomor 1 modul 5](../assets/image/nomor%201%20modul%205.png)
+
+2. Perhatikan informasi “content field” pada paket yang Anda pilih di pertanyaan 1. Berapa 
+panjang (dalam satuan byte) masing-masing “field” yang terdapat pada header UDP? 
+    # Lampiran
+    nomor 2 modul 5 (bagian 1) ![nomor 2 modul 5 (bagian 1)](../assets/image/nomor%202%20modul%205%20(bagian%201).png)
