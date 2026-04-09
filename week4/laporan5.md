@@ -27,3 +27,4 @@ Pertanyaan modul 5
 panjang (dalam satuan byte) masing-masing “field” yang terdapat pada header UDP? 
     # Lampiran
     nomor 2 modul 5 (bagian 1) ![nomor 2 modul 5 (bagian 1)](../assets/image/nomor%202%20modul%205%20(bagian%201).png)
+    nomor 2 modul 5 (bagian 2) ![nomor 2 modul 5 (bagian 2)](../assets/image/nomor%202%20modul%205%20(bagian%202).png)
