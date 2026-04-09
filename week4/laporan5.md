@@ -50,5 +50,13 @@ desimal. Untuk menjawab pertanyaan ini, Anda harus melihat ke bagian ”Protocol
 datagram IP yang mengandung segmen UDP. 
     # Lampiran
     ![nomor 6 modul 5](../assets/image/nomor%206%20modul%205.png)
+Nomor protokol UDP adalah: Desimal: 17, Heksadesimal: 0x11
 
-7. 
+7. Periksa pasangan paket UDP di mana host Anda mengirimkan paket UDP pertama dan paket 
+UDP kedua merupakan balasan dari paket UDP yang pertama. (Petunjuk: agar paket kedua 
+merupakan balasan dari paket pertama, pengirim paket pertama harus menjadi tujuan dari 
+paket kedua). Jelaskan hubungan antara nomor port pada kedua paket tersebut! 
+    # Lampiran
+    ![nomor 7 modul 5 (bagian 1)](../assets/image/nomor%207%20modul%205%20(bagian%201).png)
+    
+
