@@ -6,7 +6,7 @@
 2. Download file ZIP tersebut
 3. Ekstrak/extract file ZIP nya
     # Lampiran
-    wireshark-traches ![wireshark-traches](../assets/image/wireshark-traches.png)
+    ![wireshark-traches](../assets/image/wireshark-traches.png)
 4. Cari file bernama http-ethereal-trace-5 di dalam folder hasil ekstrak
 5. Buka aplikasi Wireshark
 6. Klik File → Open
@@ -15,7 +15,7 @@
 9. Klik salah satu paket UDP yang muncul
 10. Klik User Datagram Protocol untuk expand
     # Lampiran
-    wireshark-http-ethernal-trace-5 ![wireshark-http-ethernal-trace-5](../assets/image/wireshark-http-ethernal-trace-5.png)
+    ![wireshark-http-ethernal-trace-5](../assets/image/wireshark-http-ethernal-trace-5.png)
 
 Pertanyaan modul 5
 1. Pilih satu paket UDP yang terdapat pada trace Anda. Dari paket tersebut, berapa banyak 
@@ -31,3 +31,10 @@ panjang (dalam satuan byte) masing-masing “field” yang terdapat pada header 
     ![nomor 2 modul 5 (bagian 2)](../assets/image/nomor%202%20modul%205%20(bagian%202).png)
     ![nomor 2 modul 5 (bagian 3)](../assets/image/nomor%202%20modul%205%20(bagian%203).png)
     ![nomor 2 modul 5 (bagian 4)](../assets/image/nomor%202%20modul%205%20(bagian%204).png)
+Masing-masing field panjangnya 2 byte, jadi total header UDP = 8 byte. Cara verifikasinya lihat di panel tengah Wireshark, tiap field akan tersorot 2 byte di panel bawah (hex dump) kalau diklik.
+
+3. Nilai yang tertera pada ”Length” menyatakan nilai apa? Verfikasi jawaban Anda melalui 
+paket UDP pada trace. 
+    # Lampiran
+    ![nomor 3 modul 5](../assets/image/nomor%203%20modul%205.png)
+
