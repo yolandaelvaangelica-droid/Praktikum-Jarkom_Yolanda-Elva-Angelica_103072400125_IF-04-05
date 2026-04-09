@@ -21,13 +21,13 @@ Pertanyaan modul 5
 1. Pilih satu paket UDP yang terdapat pada trace Anda. Dari paket tersebut, berapa banyak 
 “field” yang terdapat pada header UDP? Sebutkan nama-nama field yang Anda temukan!
     # Lampiran
-    nomor 1 modul 5 ![nomor 1 modul 5](../assets/image/nomor%201%20modul%205.png)
+    ![nomor 1 modul 5](../assets/image/nomor%201%20modul%205.png)
 Header UDP punya 4 field, yaitu: Source Port, Destination Port, Length, Checksum
 
 2. Perhatikan informasi “content field” pada paket yang Anda pilih di pertanyaan 1. Berapa 
 panjang (dalam satuan byte) masing-masing “field” yang terdapat pada header UDP? 
     # Lampiran
-    nomor 2 modul 5 (bagian 1) ![nomor 2 modul 5 (bagian 1)](../assets/image/nomor%202%20modul%205%20(bagian%201).png)
-    nomor 2 modul 5 (bagian 2) ![nomor 2 modul 5 (bagian 2)](../assets/image/nomor%202%20modul%205%20(bagian%202).png)
-    nomor 2 modul 5 (bagian 3) ![nomor 2 modul 5 (bagian 3)](../assets/image/nomor%202%20modul%205%20(bagian%203).png)
-    
+    ![nomor 2 modul 5 (bagian 1)](../assets/image/nomor%202%20modul%205%20(bagian%201).png)
+    ![nomor 2 modul 5 (bagian 2)](../assets/image/nomor%202%20modul%205%20(bagian%202).png)
+    ![nomor 2 modul 5 (bagian 3)](../assets/image/nomor%202%20modul%205%20(bagian%203).png)
+    ![nomor 2 modul 5 (bagian 4)](../assets/image/nomor%202%20modul%205%20(bagian%204).png)
