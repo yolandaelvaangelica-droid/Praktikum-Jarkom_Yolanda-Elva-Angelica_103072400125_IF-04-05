@@ -24,3 +24,7 @@ sebelum klik upload, siapkan wireshark terlebih dahulu
 7. Klik paket yang di kolom Info tertulis (SYN) Lihat di bagian tengah (detail): expand Transmission Control Protocol
     # Lampiran
     ![Paket SYN dipilih, dengan detail TCP di-expand](../assets/image/Paket%20SYN%20dipilih,%20dengan%20detail%20TCP%20di-expand.png)
+8. Filter kembali dengan tcp, Cari 6 segmen pertama yang dikirim dari komputer ke gaia.cs.umass.edu. Klik satu per satu: Sequence Number, waktu dikirim, waktu ACK diterima.
+    # Lampiran
+    ![Segmen yang Dikirim ke Gaia](../assets/image/Segmen%20yang%20Dikirim%20ke%20Gaia.png)
+    
