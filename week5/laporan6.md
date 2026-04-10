@@ -157,3 +157,16 @@ pada bagian mana algoritma ”congestion avoidance” mengambil alih? Berikan ko
 tentang bagaimana data yang diukur berbeda dari perilaku ideal TCP yang telah kita pelajari.
     # Lampiran
     ![Grafik Time-Sequence Stevens](../assets/image/Grafik%20Time-Sequence%20Stevens.png)
+
+2. Jawablah kedua pertanyaan di atas untuk trace yang Anda dapatkan ketika Anda 
+mengirimkan file dari komputer ke gaia.cs.umass.edu.
+Fase Slow Start:
+- Terlihat di bagian kiri grafik (sekitar 0-1 detik pertama)
+- Titik-titik naik sangat curam/vertikal dari 0 bytes langsung loncat ke ~150 kB
+- Ini karena cwnd (congestion window) berlipat ganda setiap RTT
+Fase Congestion Avoidance:
+- Setelah titik-titik berhenti naik, grafik mendatar/flat sampai akhir
+- Ini bukan congestion avoidance sesungguhnya, tapi karena file sudah habis terkirim sebelum sempat masuk fase congestion avoidance
+Perbandingan dengan TCP Ideal:
+- TCP ideal seharusnya: slow start dulu (naik eksponensial) → lalu congestion avoidance (naik linear)
+- Grafik hanya terlihat slow start saja karena file alice.txt (~153 KB) terlalu kecil dan jaringan terlalu cepat sehingga langsung habis terkirim dalam waktu sangat singkat (~1 detik)
