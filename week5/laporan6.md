@@ -46,4 +46,9 @@ membawa pesan HTTP tersebut.
     # Lampiran
     ![paket HTTP POST](../assets/image/paket%20HTTP%20POST.png)
 
-2. 
+2. Apa alamat IP dari gaia.cs.umass.edu? Pada nomor port berapa ia mengirim dan menerima 
+segmen TCP untuk koneksi ini?
+    # Lampiran
+    ![Destination port](../assets/image/Destination%20port.png)
+
+3. 
