@@ -21,3 +21,6 @@ sebelum klik upload, siapkan wireshark terlebih dahulu
 6. Di menu atas Wireshark, klik Analyze -> Enabled Protocols. Cari HTTP di daftar, uncheck/Hilangkan centang HTTP lalu klik OK. Sekarang tampilan berubah, semua paket tampil sebagai TCP murni
     # Lampiran
     ![Tampilan Wireshark setelah HTTP dinonaktifkan ](../assets/image/Tampilan%20Wireshark%20setelah%20HTTP%20dinonaktifkan.png)
+7. Klik paket yang di kolom Info tertulis (SYN) Lihat di bagian tengah (detail): expand Transmission Control Protocol
+    # Lampiran
+    ![Paket SYN dipilih, dengan detail TCP di-expand](../assets/image/Paket%20SYN%20dipilih,%20dengan%20detail%20TCP%20di-expand.png)
