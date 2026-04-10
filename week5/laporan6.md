@@ -38,3 +38,12 @@ Kalau koneksi bermasalah, download file trace resmi:
 3. Buka Wireshark → File → Open → pilih file tersebut
 4. Langkah analisis sama seperti di atas
 
+Pertanyaan Bagian 6.3 — Tampilan Awal Captured Trace
+1. Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien (sumber) untuk 
+mentransfer file ke gaia.cs.umass.edu? Cara paling mudah menjawab pertanyaan ini adalah 
+dengan memilih sebuah pesan HTTP dan meneliti detail paket TCP yang digunakan untuk 
+membawa pesan HTTP tersebut. 
+    # Lampiran
+    ![paket HTTP POST](../assets/image/paket%20HTTP%20POST.png)
+
+2. 
