@@ -130,4 +130,5 @@ dalam file trace) untuk menjawab pertanyaan ini?
 mengidentifikasi kasus-kasus di mana penerima melakukan ACK untuk setiap segmen yang 
 diterima?
     # Lampiran
+    ![ ACK Acknowledgment number (bagian 1)](../assets/image/ACK%20Acknowledgment%20number%20(bagian%201).png)
     
