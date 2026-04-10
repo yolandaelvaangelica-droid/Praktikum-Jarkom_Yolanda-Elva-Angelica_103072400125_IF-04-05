@@ -56,3 +56,11 @@ untuk mentransfer  ke gaia.cs.umass.edu?
     # Lampiran
     ![Paket HTTP POST dari capture kamu sendiri](../assets/image/Paket%20HTTP%20POST%20dari%20capture%20kamu%20sendiri.png)
 
+Pertanyaan Bagian 6.4 — Dasar TCP
+1. Berapa nomor urut segmen TCP SYN yang digunakan untuk memulai sambungan TCP antara 
+komputer klien dan gaia.cs.umass.edu? Apa yang dimiliki segmen tersebut sehingga 
+teridentifikasi sebagai segmen SYN? 
+    # Lampiran
+    ![Paket [SYN]](../assets/image/Paket%20[SYN].png)
+
+2. 
