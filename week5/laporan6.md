@@ -45,11 +45,17 @@ dengan memilih sebuah pesan HTTP dan meneliti detail paket TCP yang digunakan un
 membawa pesan HTTP tersebut. 
     # Lampiran
     ![paket HTTP POST](../assets/image/paket%20HTTP%20POST.png)
+- Alamat IP klien: 192.168.18.24
+- Nomor Port TCP klien: 54049
+- Alamat IP tujuan (gaia): 128.119.245.12
+- Port tujuan: 80
 
 2. Apa alamat IP dari gaia.cs.umass.edu? Pada nomor port berapa ia mengirim dan menerima 
 segmen TCP untuk koneksi ini?
     # Lampiran
     ![Destination port](../assets/image/Destination%20port.png)
+- Alamat IP gaia.cs.umass.edu: 128.119.245.12
+- Port: 80 (HTTP standard)
 
 3. Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien Anda (sumber) 
 untuk mentransfer  ke gaia.cs.umass.edu? 
@@ -89,10 +95,22 @@ Graph).
     # Lampiran
     ![waktu kirim dari kolom Time](../assets/image/waktu%20kirim%20dari%20kolom%20Time.png)
     ![packet list ACK](../assets/image/packet%20list%20ACK.png)
+- Segmen 1: 16.018940100
+- Segmen 2: 16.019502500
+- Segmen 3: 16.297645600
+- Segmen 4: 16.604700300
+- Segmen 5: 16.875473700
+- Segmen 6: 16.879455200
 
 5. Berapa panjang setiap enam segmen TCP pertama?
     # Lampiran
     ![waktu kirim dari kolom Time](../assets/image/waktu%20kirim%20dari%20kolom%20Time.png)
+- Segmen 1 (No. 2264): Len = 725 bytes
+- Segmen 2 (No. 2265): Len = 12708 bytes
+- Segmen 3 (No. 2279): Len = 25416 bytes
+- Segmen 4 (No. 2288): Len = 50832 bytes
+- Segmen 5 (No. 3007): Len = 22592 bytes
+- Segmen 6 (No. 3039): HTTP POST (reassembled)
 
 6. Berapa jumlah minimum ruang buffer tersedia yang disarankan kepada penerima dan 
 diterima untuk seluruh trace? Apakah kurangnya ruang buffer penerima pernah 
@@ -100,4 +118,16 @@ menghambat pengiriman?
     # Lampiran
     ![Window size value](../assets/image/Window%20size%20value.png)
 
-7. 
+7. Apakah ada segmen yang ditransmisikan ulang dalam file trace? Apa yang anda periksa (di 
+dalam file trace) untuk menjawab pertanyaan ini? 
+    # Lampiran
+    ![tcp.analysis.retransmission](../assets/image/tcp.analysis.retransmission.png)
+- Ada retransmisi — terlihat paket No. 246 berlabel [TCP Retransmission]
+- Source: 31.13.95.60 → 192.168.18.24
+- Yang diperiksa: Sequence number yang sama dikirim ulang, Wireshark otomatis memberi label [TCP Retransmission] di kolom Info
+
+8. Berapa banyak data yang biasanya diakui oleh penerima dalam ACK? Dapatkah anda 
+mengidentifikasi kasus-kasus di mana penerima melakukan ACK untuk setiap segmen yang 
+diterima?
+    # Lampiran
+    
