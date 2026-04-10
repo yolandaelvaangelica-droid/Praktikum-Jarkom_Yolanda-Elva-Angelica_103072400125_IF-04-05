@@ -63,4 +63,11 @@ teridentifikasi sebagai segmen SYN?
     # Lampiran
     ![Paket [SYN]](../assets/image/Paket%20[SYN].png)
 
-2. 
+2. Berapa nomor urut segmen SYNACK yang dikirim oleh gaia.cs.umass.edu ke komputer klien 
+sebagai balasan dari SYN? Berapa nilai dari field Acknowledgement pada segmen SYNACK? 
+Bagaimana gaia.cs.umass.edu menentukan nilai tersebut? Apa yang dimiliki oleh segmen  
+sehingga teridentifikasi sebagai segmen SYNACK? 
+    # Lampiran
+    ![Paket [SYN, ACK]](../assets/image/Paket%20[SYN,%20ACK].png)
+
+3. 
