@@ -51,4 +51,8 @@ segmen TCP untuk koneksi ini?
     # Lampiran
     ![Destination port](../assets/image/Destination%20port.png)
 
-3. 
+3. Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien Anda (sumber) 
+untuk mentransfer  ke gaia.cs.umass.edu? 
+    # Lampiran
+    ![Paket HTTP POST dari capture kamu sendiri](../assets/image/Paket%20HTTP%20POST%20dari%20capture%20kamu%20sendiri.png)
+
