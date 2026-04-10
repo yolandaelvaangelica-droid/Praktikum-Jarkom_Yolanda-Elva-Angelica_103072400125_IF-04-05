@@ -1,6 +1,6 @@
 # Laporan5 Praktikum Jarkom IF
 
-# modul 4 UDP
+# modul 5 UDP
 
 1. Buka browser, pergi ke link: http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip 
 2. Download file ZIP tersebut
