@@ -30,3 +30,11 @@ sebelum klik upload, siapkan wireshark terlebih dahulu
     ![ACK Balasan dari Gaia](../assets/image/ACK%20Balasan%20dari%20Gaia.png)
 9. Pilih salah satu segmen TCP yang dikirim dari komputer ke server. Klik menu Statistics -> TCP Stream Graph -> Time-Sequence Graph (Stevens). Akan muncul grafik
     # Lampiran
+    ![Grafik RTT](../assets/image/Grafik%20RTT.png)
+
+Kalau koneksi bermasalah, download file trace resmi:
+1. Download dari: http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
+2. Ekstrak, cari file bernama tcp-ethereal-trace-1
+3. Buka Wireshark → File → Open → pilih file tersebut
+4. Langkah analisis sama seperti di atas
+
