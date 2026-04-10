@@ -15,3 +15,7 @@ sebelum klik upload, siapkan wireshark terlebih dahulu
 4. Kembali ke browser, klik tombol "Upload alice.txt file". Tunggu sampai muncul pesan "Success! You've uploaded..."
     # Lampiran
     ![Halaman browser yang menampilkan pesan sukses upload](../assets/image/Halaman%20browser%20yang%20menampilkan%20pesan%20sukses%20upload.png)
+5. Setelah berhasil, kembali ke Wireshark dan STOP capture. Di kolom filter atas Wireshark, ketik tcp. Lalu tekan Enter
+    # Lampiran
+    ![Tampilan Wireshark setelah difilter tcp](../assets/image/Tampilan%20Wireshark%20setelah%20difilter%20tcp.png)
+6. 
