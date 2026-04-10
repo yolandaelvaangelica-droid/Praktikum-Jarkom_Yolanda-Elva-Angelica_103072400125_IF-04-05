@@ -77,4 +77,15 @@ nya.
     # Lampiran
     ![Sequence number](../assets/image/Sequence%20number.png)
 
-4. 
+4. Anggap segmen TCP yang berisi HTTP POST sebagai segmen pertama dalam koneksi TCP. 
+Berapa nomor urut dari enam segmen pertama dalam TCP (termasuk segmen yang berisi 
+HTTP POST)? Pada jam berapa setiap segmen dikirim? Kapan ACK untuk setiap segmen 
+diterima? Dengan adanya perbedaan antara kapan setiap segmen TCP dikirim dan kapan 
+acknowledgement-nya diterima, berapakah nilai RTT untuk keenam segmen tersebut? 
+Berapa nilai EstimatedRTT setelah penerimaan setiap ACK? (Catatan: Wireshark memiliki 
+fitur yang memungkinkan Anda untuk memplot RTT untuk setiap segmen TCP yang dikirim. 
+Pilih segmen TCP yang dikirim dari klien ke server gaia.cs.umass.edu pada jendela "daftar paket yang ditangkap". Kemudian pilih: Statistics->TCP Stream Graph- >Round Trip Time 
+Graph). 
+    # Lampiran
+    ![waktu kirim dari kolom Time](../assets/image/waktu%20kirim%20dari%20kolom%20Time.png)
+    
