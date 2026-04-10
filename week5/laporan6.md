@@ -5,3 +5,6 @@
 1. Buka browser, Masuk ke URL: http://gaia.cs.umass.edu/wireshark-labs/alice.txt
     # Lampiran
     ![Tampilan file alice.txt](../assets/image/Tampilan%20file%20alice.txt.png)
+2. Buka URL: http://gaia.cs.umass.edu/wireshark-labs/TCP-wireshark-file1.html. Klik tombol Browse dan pilih file alice.txt yang tadi disimpan
+    # Lampiran
+    ![TCP-wireshark-file1.html](../assets/image/TCP-wireshark-file1.html.png)
