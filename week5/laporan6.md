@@ -88,4 +88,6 @@ Pilih segmen TCP yang dikirim dari klien ke server gaia.cs.umass.edu pada jendel
 Graph). 
     # Lampiran
     ![waktu kirim dari kolom Time](../assets/image/waktu%20kirim%20dari%20kolom%20Time.png)
-    
+    ![packet list ACK](../assets/image/packet%20list%20ACK.png)
+
+5. 
