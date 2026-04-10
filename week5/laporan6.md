@@ -132,3 +132,11 @@ diterima?
     # Lampiran
     ![ACK Acknowledgment number (bagian 1)](../assets/image/ACK%20Acknowledgment%20number%20(bagian%201).png)
     ![ACK Acknowledgment number (bagian 2)](../assets/image/ACK%20Acknowledgment%20number%20(bagian%202).png)
+- Biasanya server mengirim ACK untuk setiap 2 segmen yang diterima (delayed ACK)
+- Sehingga satu ACK mengakui sekitar 2 × 1460 = 2920 bytes
+- Ada juga kasus di mana server melakukan ACK untuk setiap segmen
+
+9. Berapa throughput (byte yang ditransfer per satuan waktu) untuk sambungan TCP? 
+Jelaskan bagaimana Anda menghitung nilai ini. 
+    # Lampiran
+    ![throughput koneksi TCP](../assets/image/throughput%20koneksi%20TCP.png)
