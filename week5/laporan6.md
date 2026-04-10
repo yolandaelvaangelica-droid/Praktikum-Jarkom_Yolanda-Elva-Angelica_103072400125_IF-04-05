@@ -94,4 +94,10 @@ Graph).
     # Lampiran
     ![waktu kirim dari kolom Time](../assets/image/waktu%20kirim%20dari%20kolom%20Time.png)
 
-6. 
+6. Berapa jumlah minimum ruang buffer tersedia yang disarankan kepada penerima dan 
+diterima untuk seluruh trace? Apakah kurangnya ruang buffer penerima pernah 
+menghambat pengiriman?
+    # Lampiran
+    ![Window size value](../assets/image/Window%20size%20value.png)
+
+7. 
