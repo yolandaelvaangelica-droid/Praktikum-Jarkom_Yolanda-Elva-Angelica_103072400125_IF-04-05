@@ -27,4 +27,6 @@ sebelum klik upload, siapkan wireshark terlebih dahulu
 8. Filter kembali dengan tcp, Cari 6 segmen pertama yang dikirim dari komputer ke gaia.cs.umass.edu. Klik satu per satu: Sequence Number, waktu dikirim, waktu ACK diterima.
     # Lampiran
     ![Segmen yang Dikirim ke Gaia](../assets/image/Segmen%20yang%20Dikirim%20ke%20Gaia.png)
-    
+    ![ACK Balasan dari Gaia](../assets/image/ACK%20Balasan%20dari%20Gaia.png)
+9. Pilih salah satu segmen TCP yang dikirim dari komputer ke server. Klik menu Statistics -> TCP Stream Graph -> Time-Sequence Graph (Stevens). Akan muncul grafik
+    # Lampiran
