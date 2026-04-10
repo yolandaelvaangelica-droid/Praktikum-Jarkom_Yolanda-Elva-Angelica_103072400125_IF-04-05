@@ -70,4 +70,11 @@ sehingga teridentifikasi sebagai segmen SYNACK?
     # Lampiran
     ![Paket [SYN, ACK]](../assets/image/Paket%20[SYN,%20ACK].png)
 
-3. 
+3. Berapa nomor urut segmen TCP yang berisi perintah HTTP POST? Perhatikan bahwa untuk 
+menemukan perintah POST, Anda harus menelusuri content field milik paket di bagian 
+bawah jendela Wireshark, kemudian cari segmen yang berisi "POST" di bagian field DATA
+nya. 
+    # Lampiran
+    ![Sequence number](../assets/image/Sequence%20number.png)
+
+4. 
