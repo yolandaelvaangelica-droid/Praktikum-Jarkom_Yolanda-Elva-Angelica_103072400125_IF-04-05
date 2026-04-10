@@ -140,3 +140,20 @@ diterima?
 Jelaskan bagaimana Anda menghitung nilai ini. 
     # Lampiran
     ![throughput koneksi TCP](../assets/image/throughput%20koneksi%20TCP.png)
+- Reassembled TCP length: 153046 bytes ← total data
+- Time segmen pertama (No. 3039): 16.879455200
+- Time HTTP response (No. 3124): 17.172159700
+- Time since first frame in this TCP stream: 1.131923700 seconds
+Throughput = 153046 bytes / 1.131923700 detik
+           = ± 135.213 bytes/detik
+           = ± 135 KB/s
+           = ± 1.08 Mbps
+
+Pertanyaan Bagian 6.5 — Congestion Control TCP
+1. Gunakan alat plotting Time-Sequence-Graph (Stevens) untuk melihat grafik nomor urut 
+berbanding waktu dari segmen yang dikirim oleh klien ke server gaia.cs.umass.edu. 
+Dapatkah Anda mengidentifikasi di mana fase “slow start” TCP dimulai dan berakhir, dan 
+pada bagian mana algoritma ”congestion avoidance” mengambil alih? Berikan komentar 
+tentang bagaimana data yang diukur berbeda dari perilaku ideal TCP yang telah kita pelajari.
+    # Lampiran
+    ![Grafik Time-Sequence Stevens](../assets/image/Grafik%20Time-Sequence%20Stevens.png)
