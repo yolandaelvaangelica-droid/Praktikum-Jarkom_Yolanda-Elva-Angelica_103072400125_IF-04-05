@@ -141,3 +141,5 @@ clientSocket.close()
 
     -> tutup koneksi
 
+# Contoh Output
+![Output python TCPServer.py dan TCPClient.py](../assets/image/Output%20python%20TCPServer.py%20dan%20TCPClient.py.png)
