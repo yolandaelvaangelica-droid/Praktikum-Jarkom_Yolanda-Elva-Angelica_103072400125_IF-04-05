@@ -69,3 +69,4 @@ clientSocket.close()
 
 # Contoh Output
 ![Output UDPServer.py](../assets/image/Output%20UDPServer.py.png)
+![Output UDPClient.py](../assets/image/Output%20UDPClient.py.png)
