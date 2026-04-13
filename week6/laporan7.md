@@ -85,3 +85,35 @@ clientSocket.close()
 
 Kode TCPServer.py
 ![Kode TCPServer.py (bagian 1)](../assets/image/Kode%20TCPServer.py%20(bagian%201).png)
+![Kode TCPServer.py (bagian 2)](../assets/image/Kode%20TCPServer.py%20(bagian%202).png)
+from socket import *
+
+serverSocket = socket(AF_INET, SOCK_STREAM)
+
+    -> buat socket TCP (STREAM = TCP)
+
+serverSocket.bind(('', serverPort))
+
+    -> ikat socket ke port
+
+serverSocket.listen(1)
+
+    -> mulai dengarkan koneksi masuk, max 1 antrian
+
+connectionSocket, addr = serverSocket.accept()
+
+    -> tunggu & terima koneksi dari client
+    -> connectionSocket = soket khusus untuk client ini
+
+message = connectionSocket.recv(1024).decode()
+
+    -> terima pesan dari client
+
+connectionSocket.send(modifiedMessage.encode())
+
+    -> kirim balik ke client
+
+connectionSocket.close()
+
+    -> tutup koneksi dengan client ini
+
