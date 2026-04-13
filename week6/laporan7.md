@@ -16,27 +16,53 @@ Kode UDPServer.py
 ![Kode UDPServer.py (bagian 1)](../assets/image/Kode%20UDPServer.py%20(bagian%201).png)
 ![Kode UDPServer.py (bagian 2)](../assets/image/Kode%20UDPServer.py%20(bagian%202).png)
 from socket import *
-#import library socket
+    -> import library socket
 
 serverPort = 12000
-#tentukan port yang dipakai
+    -> tentukan port yang dipakai
 
 serverSocket = socket(AF_INET, SOCK_DGRAM)
-#buat socket UDP (DGRAM = UDP, INET = IPv4)
+    -> buat socket UDP (DGRAM = UDP, INET = IPv4)
 
 serverSocket.bind(('', serverPort))
-#ikat socket ke port 12000, '' = semua interface
+    -> ikat socket ke port 12000, '' = semua interface
 
 while True:
-message, clientAddress = serverSocket.recvfrom(2048)
-    #tunggu & terima pesan dari client, max 2048 bytes
+    message, clientAddress = serverSocket.recvfrom(2048)
+    -> tunggu & terima pesan dari client, max 2048 bytes
 
-modifiedMessage = message.decode().upper()
-    #decode bytes → string, lalu ubah jadi HURUF BESAR
+    modifiedMessage = message.decode().upper()
+    -> decode bytes → string, lalu ubah jadi HURUF BESAR
 
-serverSocket.sendto(modifiedMessage.encode(), clientAddress)
-    #kirim balik ke client, encode string → bytes 
+    serverSocket.sendto(modifiedMessage.encode(), clientAddress)
+    -> kirim balik ke client, encode string → bytes 
 
 Kode UDPClient.py
 ![Kode UDPClient.py (bagian 1)](../assets/image/Kode%20UDPClient.py%20(bagian%201).png)
+![Kode UDPClient.py (bagian 2)](../assets/image/Kode%20UDPClient.py%20(bagian%202).png)
+from socket import *
+
+serverName = 'localhost'
+    -> alamat server (komputer yang sama)
+
+serverPort = 12000
+    -> port tujuan
+
+clientSocket = socket(AF_INET, SOCK_DGRAM)
+    -> buat socket UDP
+
+sentence = input('Masukkan kalimat: ')
+    -> minta input dari user
+
+clientSocket.sendto(sentence.encode(), (serverName, serverPort))
+    -> kirim pesan ke server (encode = ubah string → bytes)
+
+modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
+    -> terima balasan dari server
+
+print(modifiedMessage.decode())
+    -> decode bytes → string lalu print
+
+clientSocket.close()
+    -> tutup socket
 
