@@ -14,3 +14,25 @@ Tahap 1 — Buat Folder & File
 Kode UDPServer.py
 # Lampiran
 ![Kode UDPServer.py (bagian 1)](../assets/image/Kode%20UDPServer.py%20(bagian%201).png)
+![Kode UDPServer.py (bagian 2)](../assets/image/Kode%20UDPServer.py%20(bagian%202).png)
+from socket import *
+# import library socket
+
+serverPort = 12000
+# tentukan port yang dipakai
+
+serverSocket = socket(AF_INET, SOCK_DGRAM)
+# buat socket UDP (DGRAM = UDP, INET = IPv4)
+
+serverSocket.bind(('', serverPort))
+# ikat socket ke port 12000, '' = semua interface
+
+while True:
+    message, clientAddress = serverSocket.recvfrom(2048)
+    # tunggu & terima pesan dari client, max 2048 bytes
+
+    modifiedMessage = message.decode().upper()
+    # decode bytes → string, lalu ubah jadi HURUF BESAR
+
+    serverSocket.sendto(modifiedMessage.encode(), clientAddress)
+    # kirim balik ke client, encode string → bytes 
