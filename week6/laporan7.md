@@ -28,6 +28,7 @@ serverSocket.bind(('', serverPort))
     -> ikat socket ke port 12000, '' = semua interface
 
 while True:
+
     message, clientAddress = serverSocket.recvfrom(2048)
     -> tunggu & terima pesan dari client, max 2048 bytes
 
@@ -66,3 +67,5 @@ print(modifiedMessage.decode())
 clientSocket.close()
     -> tutup socket
 
+# Contoh Output
+![Output UDPServer.py](../assets/image/Output%20UDPServer.py.png)
