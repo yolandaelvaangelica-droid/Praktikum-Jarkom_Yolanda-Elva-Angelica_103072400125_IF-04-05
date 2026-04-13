@@ -117,3 +117,27 @@ connectionSocket.close()
 
     -> tutup koneksi dengan client ini
 
+Kode TCPClient.py
+![Kode TCPClient.py](../assets/image/Kode%20TCPClient.py.png)
+from socket import *
+
+clientSocket = socket(AF_INET, SOCK_STREAM)
+
+    -> buat socket TCP
+
+clientSocket.connect((serverName, serverPort))
+
+    -> hubungkan ke server (three-way handshake terjadi di sini)
+
+clientSocket.send(sentence.encode())
+
+    -> kirim pesan (tidak perlu lampirkan alamat karena sudah connect)
+
+modifiedSentence = clientSocket.recv(1024)
+
+    -> terima balasan dari server
+
+clientSocket.close()
+
+    -> tutup koneksi
+
