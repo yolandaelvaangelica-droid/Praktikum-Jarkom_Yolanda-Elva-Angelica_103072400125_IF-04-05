@@ -21,5 +21,7 @@ Penjelasan Kode(9.5)
 Penjelasan File HTML(9.5)
 1. File HTML ini adalah file yang akan ditampilkan di browser ketika klien mengaksesnya. File ini berisi judul halaman yaitu "Web Server Modul 9" yang akan muncul di tab browser, serta dua konten utama yaitu heading "Hello World!" dan paragraf "Web Server Jaringan Komputer berhasil!" yang akan ditampilkan di halaman browser.
 
+Output:
+![modul 9.5 output](../assets/image/modul%209.5%20output.png)
 
 
