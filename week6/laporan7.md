@@ -12,7 +12,6 @@ Tahap 1 — Buat Folder & File
 3. Buat file baru: klik ikon New File di panel kiri
 
 Kode UDPServer.py
-# Lampiran
 ![Kode UDPServer.py (bagian 1)](../assets/image/Kode%20UDPServer.py%20(bagian%201).png)
 ![Kode UDPServer.py (bagian 2)](../assets/image/Kode%20UDPServer.py%20(bagian%202).png)
 from socket import *
