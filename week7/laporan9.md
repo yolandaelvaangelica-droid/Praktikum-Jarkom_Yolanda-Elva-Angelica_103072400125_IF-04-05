@@ -29,5 +29,5 @@ Output:
 kode server.py
 ![modul 9.6 server.py](../assets/image/modul%209.6%20server.py.png)
 ![modul 9.6 server.py (2)](../assets/image/modul%209.6%20server.py%20(2).png)
-
+![modul 9.6 server.py (3)](../assets/image/modul%209.6%20server.py%20(3).png)
 
