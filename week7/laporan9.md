@@ -25,4 +25,6 @@ Output:
 ![modul 9.5 output](../assets/image/modul%209.5%20output.png)
 ![modul 9.5 hello world](../assets/image/modul%209.5%20hello%20world.png)
 
-
+9.6 Latihan Tambahan 
+kode server.py
+![modul 9.6 server.py](../assets/image/modul%209.6%20server.py.png)
