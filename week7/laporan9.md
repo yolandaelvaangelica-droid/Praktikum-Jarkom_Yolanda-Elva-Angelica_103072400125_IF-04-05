@@ -28,3 +28,6 @@ Output:
 9.6 Latihan Tambahan 
 kode server.py
 ![modul 9.6 server.py](../assets/image/modul%209.6%20server.py.png)
+![modul 9.6 server.py (2)](../assets/image/modul%209.6%20server.py%20(2).png)
+
+
