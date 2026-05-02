@@ -31,3 +31,7 @@ kode server.py
 ![modul 9.6 server.py (2)](../assets/image/modul%209.6%20server.py%20(2).png)
 ![modul 9.6 server.py (3)](../assets/image/modul%209.6%20server.py%20(3).png)
 
+kode index.html
+
+![modul 9.6 index.html](../assets/image/modul%209.6%20index.html.png)
+
