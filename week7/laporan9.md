@@ -48,3 +48,4 @@ Penjelasan Kode(9.6)
 
 Output:
 ![modul 9.6 output](../assets/image/modul%209.6%20output.png)
+![modul 9.6 hello world](../assets/image/modul%209.6%20hello%20world.png)
