@@ -42,5 +42,9 @@ IP Address (Internet Protocol Address) adalah alamat unik yang diberikan kepada 
     b. Ketik filter icmp
     
     c. Akan muncul paket Echo Request dan TTL Exceeded
+
     Paket Echo Request (paket 25):
     ![Paket Echo Request (paket 25) modul 10](../assets/image/Paket%20Echo%20Request%20(paket%2025)%20modul%2010.png)
+
+    Paket TTL Exceeded (paket 26):
+    ![Paket TTL Exceeded (paket 26) Modul 10](../assets/image/Paket%20TTL%20Exceeded%20(paket%2026)%20Modul%2010.png)
