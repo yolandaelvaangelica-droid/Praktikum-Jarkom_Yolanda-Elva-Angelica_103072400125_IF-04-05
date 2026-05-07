@@ -134,4 +134,33 @@ TTL adalah nilai dalam header IP yang menentukan berapa banyak router yang boleh
     a. Buka Wireshark → File → Open → pilih ipv6_sample.pcap
     
     b. Ketik filter ipv6
+    ![Wireshark IPv6 modul 10](../assets/image/Wireshark%20IPv6%20modul%2010.png)
+
+    Info Umum:
     
+    - Total paket: 35 paket (semua IPv6)
+    
+    - Source: 2001:db8:1::10
+    
+    - Destination: 2a00:1450:4009:80b::200e (Google)
+    
+    - Protocol: TCP/SSL
+    
+    - Port: 52344 → 443 (HTTPS)
+
+    Perbedaan IPv6 vs IPv4:
+
+    a. Fitur: Panjang alamat, IPv4: 32 bit, IPv6: 128 bit
+
+    b. Fitur: Format, IPv4: 192.168.1.1, IPv6: 2001:db8:1::10
+
+    c. Fitur: TTL, IPv4: Time To Live, IPv6: Hop Limit
+
+    d. Fitur: Header size, IPv4: Variable, IPv6: Fixed 40 bytes
+
+    e. Fitur: Checksum, IPv4: Ada, IPv6: Tidak ada
+
+    d. Fitur: Jumlah alamat, IPv4: ~4 milliar, IPv6: ~340 undecillion
+
+Kesimpulan:
+IPv6 dikembangkan sebagai pengganti IPv4 karena keterbatasan jumlah alamat. Dengan format 128 bit, IPv6 mampu menyediakan alamat yang jauh lebih banyak sehingga cukup untuk seluruh perangkat di dunia dalam jangka panjang.
