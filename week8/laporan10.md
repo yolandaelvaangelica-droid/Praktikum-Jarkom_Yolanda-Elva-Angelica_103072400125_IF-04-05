@@ -48,3 +48,90 @@ IP Address (Internet Protocol Address) adalah alamat unik yang diberikan kepada 
 
     Paket TTL Exceeded (paket 26):
     ![Paket TTL Exceeded (paket 26) Modul 10](../assets/image/Paket%20TTL%20Exceeded%20(paket%2026)%20Modul%2010.png)
+
+3. Apa itu ICMP, MTU, TTL?
+ICMP (Internet Control Message Protocol)
+
+ICMP adalah protokol yang digunakan untuk mengirim pesan error dan informasi kontrol dalam jaringan IP. ICMP tidak digunakan untuk mengirim data seperti TCP/UDP, melainkan untuk melaporkan kondisi jaringan.
+
+    Contoh penggunaan ICMP:
+    
+    - Ping → mengirim ICMP Echo Request, menerima Echo Reply
+    
+    - Traceroute → memanfaatkan pesan ICMP TTL Exceeded
+    
+    - Destination Unreachable → memberitahu pengirim bahwa tujuan tidak bisa dicapai
+
+    Type ICMP yang umum:
+
+    - 0 : Echo Reply
+
+    - 8 : Echo Request
+
+    - 11 : Time-to-live Exceeded
+
+    - 3 : Destination Unreachable
+
+MTU (Maximum Transmission Unit)
+
+MTU adalah ukuran maksimum paket data yang bisa dikirim dalam satu frame di jaringan. Untuk jaringan Ethernet standar, MTU adalah 1500 bytes. Jika paket lebih besar dari MTU, maka paket akan dipecah menjadi beberapa bagian kecil yang disebut fragmentasi.
+
+    Contoh:
+
+    Paket 3000 byte, MTU 1500 byte:
+    
+    - Fragment 1: 1480 bytes (MF=1, offset=0)
+    
+    - Fragment 2: 1480 bytes (MF=1, offset=185)
+    
+    - Fragment 3: 40 bytes   (MF=0, offset=370)
+
+TTL (Time to Live)
+
+TTL adalah nilai dalam header IP yang menentukan berapa banyak router yang boleh dilalui oleh sebuah paket sebelum dibuang. Setiap kali paket melewati satu router, nilai TTL dikurangi 1. Jika TTL mencapai 0, router akan membuang paket dan mengirim pesan ICMP TTL Exceeded ke pengirim.
+
+    Fungsi TTL:
+    
+    - Mencegah paket berputar-putar selamanya di jaringan
+    
+    - Dimanfaatkan oleh traceroute untuk mengetahui jalur paket
+
+    Contoh:
+    
+    - TTL=1 → dibuang di router hop 1
+    
+    - TTL=2 → dibuang di router hop 2
+    
+    - TTL=3 → dibuang di router hop 3
+
+4. Contoh Fragmentasi di Wireshark
+
+    Langkah:
+    
+    a. Buka Wireshark → buka file abc.pcapng
+    
+    b. Ketik filter: ip.flags.mf == 1 || ip.frag_offset > 0
+    
+    ![abc.pcapng modul 10](../assets/image/abc.pcapng%20modul%2010.png)
+
+    Hasil:
+
+    Pada file abc.pcapng tidak ditemukan fragmentasi karena traceroute Windows menggunakan paket ICMP berukuran kecil (32 bytes) yang tidak melebihi MTU 1500 bytes sehingga tidak memerlukan fragmentasi.
+    Penjelasan teori fragmentasi:
+    
+    Fragmentasi terjadi ketika ukuran paket melebihi MTU jaringan. Tanda-tanda fragmentasi di Wireshark:
+    
+    - More Fragments (MF) flag = 1 → masih ada fragment lanjutan
+    
+    - Fragment Offset > 0 → ini bukan fragment pertama
+    
+    - Identification sama → semua fragment berasal dari paket yang sama
+
+5. IPv6 di Wireshark
+
+    Langkah:
+    
+    a. Buka Wireshark → File → Open → pilih ipv6_sample.pcap
+    
+    b. Ketik filter ipv6
+    
