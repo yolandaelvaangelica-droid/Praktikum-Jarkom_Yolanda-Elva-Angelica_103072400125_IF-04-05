@@ -34,3 +34,13 @@ IP Address (Internet Protocol Address) adalah alamat unik yang diberikan kepada 
     c. Tunggu sampai selesai
 
     ![Traceroute Modul 10](../assets/image/Traceroute%20Modul%2010.png)
+
+    Analisis di Wireshark:
+
+    a. Buka Wireshark → buka file abc.pcapng
+    
+    b. Ketik filter icmp
+    
+    c. Akan muncul paket Echo Request dan TTL Exceeded
+    Paket Echo Request (paket 25):
+    ![Paket Echo Request (paket 25) modul 10](../assets/image/Paket%20Echo%20Request%20(paket%2025)%20modul%2010.png)
