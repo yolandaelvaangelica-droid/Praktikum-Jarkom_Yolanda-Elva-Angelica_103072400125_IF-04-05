@@ -86,7 +86,11 @@ Langkah capture DHCP di Wireshark:
     
 ![ipconfig renew modul 11](../assets/image/ipconfig%20renew%20modul%2011.png)
 
+    e. Tunggu beberapa detik hingga proses selesai, lalu Stop Capture di Wireshark
+    
+    f. Ketik filter berikut di Wireshark: dhcp
 
 
+![dchp modul 11](../assets/image/dchp%20modul%2011.png)
 
 
