@@ -78,6 +78,6 @@ Langkah capture DHCP di Wireshark:
     
     b. Ketik perintah berikut untuk melepas IP lama: ipconfig /release
 
-    ![ipconfig modul 11](../assets/image/ipconfig%20modul%2011.png) 
+![ipconfig modul 11](../assets/image/ipconfig%20modul%2011.png) 
 
 
