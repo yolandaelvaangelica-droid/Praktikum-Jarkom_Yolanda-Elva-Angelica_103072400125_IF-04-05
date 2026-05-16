@@ -80,4 +80,13 @@ Langkah capture DHCP di Wireshark:
 
 ![ipconfig release modul 11](../assets/image/ipconfig%20release%20modul%2011.png)
 
+    c. Buka Wireshark → pilih interface jaringan aktif → klik Start Capture
+    
+    d. Kembali ke CMD, ketik: 
+    
+![ipconfig renew modul 11](../assets/image/ipconfig%20renew%20modul%2011.png)
+
+
+
+
 
