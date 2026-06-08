@@ -26,5 +26,4 @@ Langkah-langkah:
 
     f. Karena modul ini fokus pada Ethernet, ubah tampilan Wireshark agar hanya menampilkan protokol di bawah IP: AAnalyze → Enabled Protocols → uncheck IP → OK
 
-![modul 13.2](../assets/image/modul13.2.png)
 
