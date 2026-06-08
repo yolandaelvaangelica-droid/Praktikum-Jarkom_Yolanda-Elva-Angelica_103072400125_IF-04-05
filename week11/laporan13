@@ -24,7 +24,7 @@ Langkah-langkah:
     
     e. Temukan paket HTTP GET yang dikirim dari komputer ke gaia.cs.umass.edu pada kolom paling kiri (nomor paket) di jendela Wireshark
 
-    f. Karena modul ini fokus pada Ethernet, ubah tampilan Wireshark agar hanya menampilkan protokol di bawah IP: Analyze → Enabled Protocols → uncheck IP → OK
+    f. Karena modul ini fokus pada Ethernet, ubah tampilan Wireshark agar hanya menampilkan protokol di bawah IP: AAnalyze → Enabled Protocols → uncheck IP → OK
 
 ![modul 13.2](../assets/image/modul%2013.2.png)
 
