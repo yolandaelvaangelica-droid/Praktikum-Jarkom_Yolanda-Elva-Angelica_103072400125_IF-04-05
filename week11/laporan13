@@ -1,0 +1,30 @@
+# Laporan Praktikum Jarkom IF
+
+# Modul 13 Ethernet and ARP
+
+## 13.2 Menangkap dan Menganalisis Frame Ethernet
+
+Langkah-langkah:
+
+    a. Pastikan cache browser kosong terlebih dahulu
+
+        - Mozilla Firefox: Tools → Clear Recent History → centang Cache
+
+        - Internet Explorer: Tools → Internet Options → Delete Files
+    
+     b. Jalankan Wireshark dan mulai capture paket
+     
+     c. Masukkan URL berikut ke browser:
+        
+        http://gaia.cs.umass.edu/wireshark-labs/HTTP-ethereal-lab-file3.html
+       
+        Browser akan menampilkan Bill of Rights AS yang cukup panjang
+    
+    d. Hentikan capture di Wireshark
+    
+    e. Temukan paket HTTP GET yang dikirim dari komputer ke gaia.cs.umass.edu pada kolom paling kiri (nomor paket) di jendela Wireshark
+
+    f. Karena modul ini fokus pada Ethernet, ubah tampilan Wireshark agar hanya menampilkan protokol di bawah IP: Analyze → Enabled Protocols → uncheck IP → OK
+
+![modul 13.2](../assets/image/modul%2013.2.png)
+
