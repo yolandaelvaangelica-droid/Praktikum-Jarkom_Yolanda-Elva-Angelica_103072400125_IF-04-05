@@ -28,4 +28,20 @@ Langkah-langkah:
 
 ![modul13(2)](../assets/image/modul13(2).png)
 
+## 13.3 Address Resolution Protocol
+
+### 13.3.1 Caching ARP
+
+    a. Buka Command Prompt
+    
+    b. Lihat isi ARP cache dengan perintah: arp -a
+
+    c. Hapus ARP cache dengan perintah:
+       
+       - Windows : arp -d *
+       
+       - Linux/MacOS : arp -d *  (butuh akses root)
+
+![modul 13.3.1](../assets/image/modul%2013.3.1.png)
+
 
