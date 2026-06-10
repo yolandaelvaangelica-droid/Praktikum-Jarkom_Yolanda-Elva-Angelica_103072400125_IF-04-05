@@ -44,4 +44,24 @@ Langkah-langkah:
 
 ![modul 13.3.1](../assets/image/modul%2013.3.1.png)
 
+### 13.3.2 Mengamati Aksi ARP
 
+    a. Kosongkan ARP cache seperti langkah 13.3.1 di atas
+    
+    b. Kosongkan juga cache browser
+       
+       - Mozilla Firefox: Tools → Clear Recent History → centang Cache
+       
+       - Internet Explorer: Tools → Internet Options → Delete Files
+    
+    c. Jalankan Wireshark dan mulai capture paket
+    
+    d. Masukkan URL berikut ke browser: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-lab-file3.html Browser akan menampilkan Bill of Rights AS kembali
+    
+    e. Hentikan capture di Wireshark
+    
+    f. Ubah tampilan Wireshark agar hanya menampilkan protokol di bawah IP: Analyze → Enabled Protocols → uncheck IP → OK
+    
+    g. Amati frame ARP request dan ARP reply yang muncul di daftar paket
+
+![arp request reply modul 13](../assets/image/arp%20request%20reply%20modul%2013.png)
