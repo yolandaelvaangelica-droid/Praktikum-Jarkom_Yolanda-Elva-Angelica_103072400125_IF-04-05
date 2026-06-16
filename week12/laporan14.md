@@ -51,3 +51,25 @@
     5. Di panel detail, expand bagian IEEE 802.11 untuk melihat alamat MAC sumber, tujuan, dan BSSID
 
 ![modul 14 gambar 4](../assets/image/modul%2014%20gambar%204.png)
+
+![modul 14 gambar 5](../assets/image/modul%2014%20gambar%205.png)
+
+## 14.5 Association/Disassociation
+
+    1. Pada filter Wireshark, hapus filter sebelumnya agar semua paket tampil
+    
+    2. Scroll ke area waktu sekitar t = 49,58 untuk melihat proses disasosiasi dan asosiasi ke AP baru
+
+    3. Cari frame dengan Info:
+    
+    - "Disassociation" → frame ketika host memutus dari 30 Munroe St AP
+    - "Association Request" → frame tipe 0, subtipe 0 (host → AP)
+    - "Association Response" → frame tipe 0, subtipe 1 (AP → host)
+    
+    4. Klik masing-masing frame dan expand detail IEEE 802.11
+
+![modul 14 gambar 6](../assets/image/modul%2014%20gambar%206.png)
+
+![modul 14 gambar 7](../assets/image/modul%2014%20gambar%207.png)
+
+![modul 14 gambar 8](../assets/image/modul%2014%20gambar%208.png)
